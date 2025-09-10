@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice quiz</title>
+</head>
+<body>
+    <h1>Puppy Adoption Page</h1>
+    <h2>Please enter your information to adopt a puppy and we'll email you back</h2>
+    <p>please note: first name, last name, password, and email ar required</p>
+    <form action="get">
+        <p><label for="1name">First Name:</label></p>
+         <input type="text" id="1name" name="1name" placeholder="First Name">
+        <label for="2name">Last Name:</label>
+        <input type="text" name="2name" id="2name" placeholder="Last Name">
+        <p><label for="Email">Email:</label></p>
+        <input type="email" name="Email" id="Email" placeholder="name@email.com">
+        <label for="Password">Password</label>
+        <input type="password" name="Password" id="Password" placeholder="Password">
+        <p>Are you over the age of 18?</p>
+        <p><label for="age">Yes:</label>
+        <input type="radio" name="age" id="age" value="Yes">
+        <label for="age">No:</label>
+        <input type="radio" name="age" id="age" value="No"></p>
+        <p>Do you have a credit card or PayPal?</p>
+        <select name="pay" id="pay">
+            <option value="Credit Card">Credit Card</option>
+            <option value="PayPal">PayPal</option>
+            <option value="Neither">Neither</option>
+        </select>
+        <p><input type="submit" name="submit" id="submit" value="Submit feedback"></p>
+    </form>
+</body>
+</html>
