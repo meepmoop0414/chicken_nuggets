@@ -13,9 +13,16 @@
         <input type="email" id = "useremail" name = "useremail" placeholder="first.last@ousd.org">
         <p><label for="userpass">Password:</label></p>
         <input type="password" id = "userpass" name = "userpass" placeholder="Password">
-        
-
-
+        <label for="role">Preferred role</label>
+        <select name="role" id="role">
+            <option value="DM">Dungeon Master</option>
+            <option value="Player">Player</option>
+            <option value="Either">Either</option>
+            <option value="else">Prefer to spectate</option>
+        </select>
+        <label for="suggestions">Suggestions or concerns?</label>
+        <textarea name="suggestions" id="suggestions" cols="30" rows="10"></textarea>
+        <input type="submit" name="submit" id="submit" value="Submit form">
     </form>
 </body>
 </html>
